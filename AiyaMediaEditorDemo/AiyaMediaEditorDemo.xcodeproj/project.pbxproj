@@ -1,0 +1,1199 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23A1E705213540D40006C7B9 /* AiyaEffectSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23A1E703213540550006C7B9 /* AiyaEffectSDK.bundle */; };
+		23A1E706213541710006C7B9 /* AiyaEffectSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23A1E6DE21353CD80006C7B9 /* AiyaEffectSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D30485FF202416D3004EE1CB /* AYEditCutAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = D30485FE202416D3004EE1CB /* AYEditCutAudioView.m */; };
+		D313B956202050150097C067 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D313B955202050150097C067 /* AVFoundation.framework */; };
+		D31D7BCF2019CAE6000A816C /* MediaItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D31D7BCE2019CAE6000A816C /* MediaItemModel.m */; };
+		D31D7BD6201ABD9D000A816C /* UIButton+ImageWithLable.m in Sources */ = {isa = PBXBuildFile; fileRef = D31D7BD5201ABD9D000A816C /* UIButton+ImageWithLable.m */; };
+		D32505A72016CA040058821B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D32505A62016CA040058821B /* AppDelegate.m */; };
+		D32505AF2016CA040058821B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32505AE2016CA040058821B /* Assets.xcassets */; };
+		D32505B52016CA040058821B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D32505B42016CA040058821B /* main.m */; };
+		D32505DE2016D5AD0058821B /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32505DD2016D5AD0058821B /* InputViewController.m */; };
+		D32505E32016DFA90058821B /* InputView.m in Sources */ = {isa = PBXBuildFile; fileRef = D32505E22016DFA90058821B /* InputView.m */; };
+		D32505EB2016E2B70058821B /* AYRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D32505EA2016E2B70058821B /* AYRadioButton.m */; };
+		D32505F7201715E20058821B /* InputConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D32505F6201715E20058821B /* InputConfigModel.m */; };
+		D32505FA20171CDD0058821B /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32505F920171CDD0058821B /* RecordViewController.m */; };
+		D32505FE20171D3F0058821B /* RecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = D32505FD20171D3F0058821B /* RecordView.m */; };
+		D325060B201721B10058821B /* Preview.m in Sources */ = {isa = PBXBuildFile; fileRef = D3250604201721A80058821B /* Preview.m */; };
+		D325060C201721B10058821B /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = D3250605201721A90058821B /* Camera.m */; };
+		D325060D201721B10058821B /* CameraDataProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = D3250606201721A90058821B /* CameraDataProcess.m */; };
+		D325060E201721B10058821B /* OpenglHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D3250607201721AB0058821B /* OpenglHelper.m */; };
+		D325060F201721B10058821B /* MediaWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3250608201721AB0058821B /* MediaWriter.m */; };
+		D3250613201725A70058821B /* AYRecordSpeedRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D3250612201725A70058821B /* AYRecordSpeedRadioButton.m */; };
+		D325061620172AA10058821B /* AYRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D325061520172AA10058821B /* AYRecordProgressView.m */; };
+		D325061A20173E6C0058821B /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D325061920173E6C0058821B /* EditViewController.m */; };
+		D325061E20173ED60058821B /* EditView.m in Sources */ = {isa = PBXBuildFile; fileRef = D325061D20173ED60058821B /* EditView.m */; };
+		D325062420174B160058821B /* OutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D325062320174B160058821B /* OutputViewController.m */; };
+		D325062820174BAC0058821B /* OutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = D325062720174BAC0058821B /* OutputView.m */; };
+		D325062D201832450058821B /* AYRecordStylePlane.m in Sources */ = {isa = PBXBuildFile; fileRef = D325062C201832450058821B /* AYRecordStylePlane.m */; };
+		D32506302018325F0058821B /* AYRecordFaceEffectPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = D325062F2018325F0058821B /* AYRecordFaceEffectPlane.m */; };
+		D3250633201833560058821B /* AYRecordPlaneCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3250632201833560058821B /* AYRecordPlaneCollectionViewCell.m */; };
+		D325063720183B6B0058821B /* StyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D325063620183B6B0058821B /* StyleModel.m */; };
+		D326C7732018612D002CD65F /* FaceEffectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D326C7722018612D002CD65F /* FaceEffectModel.m */; };
+		D32C281920280894007B74FF /* AYEffectProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D32C281820280894007B74FF /* AYEffectProgressView.m */; };
+		D32C281D2028093B007B74FF /* EffectTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D32C281C2028093B007B74FF /* EffectTimeModel.m */; };
+		D32C282420285820007B74FF /* PlayerStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = D32C282320285820007B74FF /* PlayerStateView.m */; };
+		D32F23D4202462F0003C84EE /* AYEditMixAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = D32F23D3202462F0003C84EE /* AYEditMixAudioView.m */; };
+		D32F23D720246C9C003C84EE /* AYEditCutMusicScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = D32F23D620246C9C003C84EE /* AYEditCutMusicScoreView.m */; };
+		D33077CE20259C7700C231C2 /* EffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33077CD20259C7700C231C2 /* EffectViewController.m */; };
+		D33077D12025A16B00C231C2 /* EffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33077D02025A16B00C231C2 /* EffectView.m */; };
+		D3568FE22044EF9400B56581 /* VideoEffectHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D3568FE02044EF9100B56581 /* VideoEffectHandler.m */; };
+		D3568FE32044EF9400B56581 /* MP4ReEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = D3568FE12044EF9300B56581 /* MP4ReEncode.m */; };
+		D3568FE520456D6D00B56581 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF96B02028775900E5B9F7 /* IJKMediaFramework.framework */; };
+		D3568FE620456D9000B56581 /* AiyaMediaEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF96A5202875B800E5B9F7 /* AiyaMediaEditor.framework */; };
+		D3568FF22046A89500B56581 /* CompressMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = D3568FF12046A89500B56581 /* CompressMedia.m */; };
+		D35E117920424DEC00522F17 /* FilterResources in Resources */ = {isa = PBXBuildFile; fileRef = D35E117220424DD400522F17 /* FilterResources */; };
+		D35E117A20424DEC00522F17 /* EffectResources in Resources */ = {isa = PBXBuildFile; fileRef = D35E117820424DEC00522F17 /* EffectResources */; };
+		D35E118620428DDA00522F17 /* FaceEffectData.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E118520428DDA00522F17 /* FaceEffectData.m */; };
+		D35E11892042BAED00522F17 /* StyleData.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E11882042BAED00522F17 /* StyleData.m */; };
+		D35E118B2042C6D300522F17 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D35E118A2042C6D300522F17 /* libiconv.tbd */; };
+		D35E118D2042C6E000522F17 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D35E118C2042C6E000522F17 /* libc++.tbd */; };
+		D393039C2022AB54008FC051 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D393039A2022AB52008FC051 /* Player.m */; };
+		D393039F2022ACD8008FC051 /* PlayerPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = D393039D2022ACD6008FC051 /* PlayerPreview.m */; };
+		D3CD2976202988FB00ACA8D8 /* AYEffectSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD2975202988FB00ACA8D8 /* AYEffectSelectorView.m */; };
+		D3CD297920298B7100ACA8D8 /* EffectCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD297820298B7100ACA8D8 /* EffectCellModel.m */; };
+		D3DD3842202ADCCB00888A6E /* EffectIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DD3841202ADCCB00888A6E /* EffectIndexModel.m */; };
+		D3E93087202D3DBC00540FE4 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93086202D3DBC00540FE4 /* MusicViewController.m */; };
+		D3E9308B202D3DD500540FE4 /* MusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9308A202D3DD500540FE4 /* MusicView.m */; };
+		D3E9308F202D40E700540FE4 /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9308E202D40E700540FE4 /* MusicModel.m */; };
+		D3E93092202D441F00540FE4 /* MusicCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93091202D441F00540FE4 /* MusicCellView.m */; };
+		D3E93099202D997000540FE4 /* Alan Walker - The Spectre.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D3E93097202D996E00540FE4 /* Alan Walker - The Spectre.m4a */; };
+		D3E9309A202D997000540FE4 /* Alan Walker - Alone.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D3E93098202D997000540FE4 /* Alan Walker - Alone.m4a */; };
+		D3EF96B8202878E600E5B9F7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF96B7202878E600E5B9F7 /* libz.tbd */; };
+		D3FE3A7F2047F33300FF014C /* VideoEffectData.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE3A7E2047F33300FF014C /* VideoEffectData.m */; };
+		D3FE3A822047F3C500FF014C /* VideoEffectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE3A812047F3C500FF014C /* VideoEffectModel.m */; };
+		D3FE3A852047F53B00FF014C /* VideoEffectResources in Resources */ = {isa = PBXBuildFile; fileRef = D3FE3A842047F53B00FF014C /* VideoEffectResources */; };
+		FD1E78C1F120AE88A7199CF8 /* libPods-AiyaMediaEditorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4F152842407157F453C46A /* libPods-AiyaMediaEditorDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23A1E6DD21353CD80006C7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D37926EA1FCD081A007DB5E8;
+			remoteInfo = AiyaEffectSDK;
+		};
+		23A1E6DF21353CD80006C7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D37926F91FCD0892007DB5E8;
+			remoteInfo = AySDKCore;
+		};
+		23A1E6E121353CD80006C7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D37927061FCD08A0007DB5E8;
+			remoteInfo = AyTrack;
+		};
+		23A1E6E321353CD80006C7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D37927131FCD08AA007DB5E8;
+			remoteInfo = AyEffect;
+		};
+		23A1E6E521353CD80006C7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D37927201FCD08BB007DB5E8;
+			remoteInfo = AyBeauty;
+		};
+		23A1E6E721353CD80006C7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D379272D1FCD08DA007DB5E8;
+			remoteInfo = AyShortVideoEffect;
+		};
+		23A1E6E921353CD80006C7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 234D512F213396E9008286F0;
+			remoteInfo = "AyEffect-lite";
+		};
+		23A1E6EB21353CD80006C7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2390F0D22133A00800104BE3;
+			remoteInfo = AiyaEffectSDKLite;
+		};
+		23A1E6EE21353CF70006C7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D37926E91FCD081A007DB5E8;
+			remoteInfo = AiyaEffectSDK;
+		};
+		D3EF96A4202875B800E5B9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EF96A0202875B800E5B9F7 /* AiyaMediaEditor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D325058E2016C9CE0058821B;
+			remoteInfo = AiyaMediaEditor;
+		};
+		D3EF96AF2028775900E5B9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EF96AB2028775800E5B9F7 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA8A1B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+		D3EF96B52028777100E5B9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EF96AB2028775800E5B9F7 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E654EA891B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3568FEC20456DF900B56581 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23A1E706213541710006C7B9 /* AiyaEffectSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AiyaEffectSDK.xcodeproj; path = ../../AiyaEffectsIOS/AiyaEffectSDK/AiyaEffectSDK.xcodeproj; sourceTree = "<group>"; };
+		23A1E703213540550006C7B9 /* AiyaEffectSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AiyaEffectSDK.bundle; sourceTree = "<group>"; };
+		3E07515E74BADBB6F4A51E99 /* Pods-AiyaMediaEditorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiyaMediaEditorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AiyaMediaEditorDemo/Pods-AiyaMediaEditorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5C4F152842407157F453C46A /* libPods-AiyaMediaEditorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AiyaMediaEditorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E97BE012B98C164CE54E19 /* Pods-AiyaMediaEditorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiyaMediaEditorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AiyaMediaEditorDemo/Pods-AiyaMediaEditorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D30485FD202416D3004EE1CB /* AYEditCutAudioView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYEditCutAudioView.h; sourceTree = "<group>"; };
+		D30485FE202416D3004EE1CB /* AYEditCutAudioView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYEditCutAudioView.m; sourceTree = "<group>"; };
+		D313B955202050150097C067 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D31D7BCD2019CAE6000A816C /* MediaItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaItemModel.h; sourceTree = "<group>"; };
+		D31D7BCE2019CAE6000A816C /* MediaItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaItemModel.m; sourceTree = "<group>"; };
+		D31D7BD4201ABD9C000A816C /* UIButton+ImageWithLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageWithLable.h"; sourceTree = "<group>"; };
+		D31D7BD5201ABD9D000A816C /* UIButton+ImageWithLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageWithLable.m"; sourceTree = "<group>"; };
+		D32052C32043AE94006375ED /* AiyaEffectSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AiyaEffectSDK.bundle; path = AiyaEffectSDK/AiyaEffectSDK.bundle; sourceTree = SOURCE_ROOT; };
+		D32505A22016CA040058821B /* AiyaMediaEditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiyaMediaEditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32505A52016CA040058821B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D32505A62016CA040058821B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D32505AE2016CA040058821B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32505B32016CA040058821B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32505B42016CA040058821B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D32505DC2016D5AD0058821B /* InputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		D32505DD2016D5AD0058821B /* InputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
+		D32505E12016DFA90058821B /* InputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputView.h; sourceTree = "<group>"; };
+		D32505E22016DFA90058821B /* InputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputView.m; sourceTree = "<group>"; };
+		D32505E92016E2B70058821B /* AYRadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYRadioButton.h; sourceTree = "<group>"; };
+		D32505EA2016E2B70058821B /* AYRadioButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYRadioButton.m; sourceTree = "<group>"; };
+		D32505F5201715E20058821B /* InputConfigModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputConfigModel.h; sourceTree = "<group>"; };
+		D32505F6201715E20058821B /* InputConfigModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputConfigModel.m; sourceTree = "<group>"; };
+		D32505F820171CDD0058821B /* RecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		D32505F920171CDD0058821B /* RecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		D32505FC20171D3F0058821B /* RecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordView.h; sourceTree = "<group>"; };
+		D32505FD20171D3F0058821B /* RecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordView.m; sourceTree = "<group>"; };
+		D3250601201721A60058821B /* MediaWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaWriter.h; sourceTree = "<group>"; };
+		D3250602201721A70058821B /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		D3250603201721A70058821B /* OpenglHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenglHelper.h; sourceTree = "<group>"; };
+		D3250604201721A80058821B /* Preview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preview.m; sourceTree = "<group>"; };
+		D3250605201721A90058821B /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		D3250606201721A90058821B /* CameraDataProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraDataProcess.m; sourceTree = "<group>"; };
+		D3250607201721AB0058821B /* OpenglHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenglHelper.m; sourceTree = "<group>"; };
+		D3250608201721AB0058821B /* MediaWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaWriter.m; sourceTree = "<group>"; };
+		D3250609201721AC0058821B /* CameraDataProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDataProcess.h; sourceTree = "<group>"; };
+		D325060A201721B10058821B /* Preview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preview.h; sourceTree = "<group>"; };
+		D3250611201725A70058821B /* AYRecordSpeedRadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYRecordSpeedRadioButton.h; sourceTree = "<group>"; };
+		D3250612201725A70058821B /* AYRecordSpeedRadioButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYRecordSpeedRadioButton.m; sourceTree = "<group>"; };
+		D325061420172AA10058821B /* AYRecordProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYRecordProgressView.h; sourceTree = "<group>"; };
+		D325061520172AA10058821B /* AYRecordProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYRecordProgressView.m; sourceTree = "<group>"; };
+		D325061820173E6C0058821B /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		D325061920173E6C0058821B /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		D325061C20173ED60058821B /* EditView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditView.h; sourceTree = "<group>"; };
+		D325061D20173ED60058821B /* EditView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditView.m; sourceTree = "<group>"; };
+		D325062220174B160058821B /* OutputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutputViewController.h; sourceTree = "<group>"; };
+		D325062320174B160058821B /* OutputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutputViewController.m; sourceTree = "<group>"; };
+		D325062620174BAC0058821B /* OutputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutputView.h; sourceTree = "<group>"; };
+		D325062720174BAC0058821B /* OutputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutputView.m; sourceTree = "<group>"; };
+		D325062B201832450058821B /* AYRecordStylePlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYRecordStylePlane.h; sourceTree = "<group>"; };
+		D325062C201832450058821B /* AYRecordStylePlane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYRecordStylePlane.m; sourceTree = "<group>"; };
+		D325062E2018325F0058821B /* AYRecordFaceEffectPlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYRecordFaceEffectPlane.h; sourceTree = "<group>"; };
+		D325062F2018325F0058821B /* AYRecordFaceEffectPlane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYRecordFaceEffectPlane.m; sourceTree = "<group>"; };
+		D3250631201833560058821B /* AYRecordPlaneCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYRecordPlaneCollectionViewCell.h; sourceTree = "<group>"; };
+		D3250632201833560058821B /* AYRecordPlaneCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYRecordPlaneCollectionViewCell.m; sourceTree = "<group>"; };
+		D325063520183B6B0058821B /* StyleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleModel.h; sourceTree = "<group>"; };
+		D325063620183B6B0058821B /* StyleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StyleModel.m; sourceTree = "<group>"; };
+		D326C7712018612D002CD65F /* FaceEffectModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceEffectModel.h; sourceTree = "<group>"; };
+		D326C7722018612D002CD65F /* FaceEffectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceEffectModel.m; sourceTree = "<group>"; };
+		D32C281720280894007B74FF /* AYEffectProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYEffectProgressView.h; sourceTree = "<group>"; };
+		D32C281820280894007B74FF /* AYEffectProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYEffectProgressView.m; sourceTree = "<group>"; };
+		D32C281B2028093B007B74FF /* EffectTimeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectTimeModel.h; sourceTree = "<group>"; };
+		D32C281C2028093B007B74FF /* EffectTimeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectTimeModel.m; sourceTree = "<group>"; };
+		D32C28222028581F007B74FF /* PlayerStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStateView.h; sourceTree = "<group>"; };
+		D32C282320285820007B74FF /* PlayerStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerStateView.m; sourceTree = "<group>"; };
+		D32F23D2202462F0003C84EE /* AYEditMixAudioView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYEditMixAudioView.h; sourceTree = "<group>"; };
+		D32F23D3202462F0003C84EE /* AYEditMixAudioView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYEditMixAudioView.m; sourceTree = "<group>"; };
+		D32F23D520246C9C003C84EE /* AYEditCutMusicScoreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYEditCutMusicScoreView.h; sourceTree = "<group>"; };
+		D32F23D620246C9C003C84EE /* AYEditCutMusicScoreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYEditCutMusicScoreView.m; sourceTree = "<group>"; };
+		D33077CC20259C7700C231C2 /* EffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectViewController.h; sourceTree = "<group>"; };
+		D33077CD20259C7700C231C2 /* EffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectViewController.m; sourceTree = "<group>"; };
+		D33077CF2025A16B00C231C2 /* EffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectView.h; sourceTree = "<group>"; };
+		D33077D02025A16B00C231C2 /* EffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectView.m; sourceTree = "<group>"; };
+		D3568FD92044EF8F00B56581 /* MP4ReEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4ReEncode.h; sourceTree = "<group>"; };
+		D3568FDF2044EF8F00B56581 /* VideoEffectHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEffectHandler.h; sourceTree = "<group>"; };
+		D3568FE02044EF9100B56581 /* VideoEffectHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEffectHandler.m; sourceTree = "<group>"; };
+		D3568FE12044EF9300B56581 /* MP4ReEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4ReEncode.m; sourceTree = "<group>"; };
+		D3568FF02046A89500B56581 /* CompressMedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompressMedia.h; sourceTree = "<group>"; };
+		D3568FF12046A89500B56581 /* CompressMedia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompressMedia.m; sourceTree = "<group>"; };
+		D35E117220424DD400522F17 /* FilterResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FilterResources; sourceTree = "<group>"; };
+		D35E117820424DEC00522F17 /* EffectResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EffectResources; sourceTree = "<group>"; };
+		D35E118420428DDA00522F17 /* FaceEffectData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceEffectData.h; sourceTree = "<group>"; };
+		D35E118520428DDA00522F17 /* FaceEffectData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceEffectData.m; sourceTree = "<group>"; };
+		D35E11872042BAED00522F17 /* StyleData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleData.h; sourceTree = "<group>"; };
+		D35E11882042BAED00522F17 /* StyleData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StyleData.m; sourceTree = "<group>"; };
+		D35E118A2042C6D300522F17 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		D35E118C2042C6E000522F17 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D393039A2022AB52008FC051 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		D393039B2022AB53008FC051 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D393039D2022ACD6008FC051 /* PlayerPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerPreview.m; sourceTree = "<group>"; };
+		D393039E2022ACD8008FC051 /* PlayerPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerPreview.h; sourceTree = "<group>"; };
+		D3CD2974202988FB00ACA8D8 /* AYEffectSelectorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYEffectSelectorView.h; sourceTree = "<group>"; };
+		D3CD2975202988FB00ACA8D8 /* AYEffectSelectorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYEffectSelectorView.m; sourceTree = "<group>"; };
+		D3CD297720298B7100ACA8D8 /* EffectCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectCellModel.h; sourceTree = "<group>"; };
+		D3CD297820298B7100ACA8D8 /* EffectCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectCellModel.m; sourceTree = "<group>"; };
+		D3DD3840202ADCCB00888A6E /* EffectIndexModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectIndexModel.h; sourceTree = "<group>"; };
+		D3DD3841202ADCCB00888A6E /* EffectIndexModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectIndexModel.m; sourceTree = "<group>"; };
+		D3E93085202D3DBC00540FE4 /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		D3E93086202D3DBC00540FE4 /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		D3E93089202D3DD500540FE4 /* MusicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicView.h; sourceTree = "<group>"; };
+		D3E9308A202D3DD500540FE4 /* MusicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicView.m; sourceTree = "<group>"; };
+		D3E9308D202D40E700540FE4 /* MusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		D3E9308E202D40E700540FE4 /* MusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		D3E93090202D441F00540FE4 /* MusicCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicCellView.h; sourceTree = "<group>"; };
+		D3E93091202D441F00540FE4 /* MusicCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicCellView.m; sourceTree = "<group>"; };
+		D3E93097202D996E00540FE4 /* Alan Walker - The Spectre.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alan Walker - The Spectre.m4a"; sourceTree = "<group>"; };
+		D3E93098202D997000540FE4 /* Alan Walker - Alone.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alan Walker - Alone.m4a"; sourceTree = "<group>"; };
+		D3EF96A0202875B800E5B9F7 /* AiyaMediaEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AiyaMediaEditor.xcodeproj; path = ../AiyaMediaEditor/AiyaMediaEditor.xcodeproj; sourceTree = "<group>"; };
+		D3EF96AB2028775800E5B9F7 /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = IJKMediaPlayer/IJKMediaPlayer.xcodeproj; sourceTree = "<group>"; };
+		D3EF96B7202878E600E5B9F7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D3FE3A7D2047F33300FF014C /* VideoEffectData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEffectData.h; sourceTree = "<group>"; };
+		D3FE3A7E2047F33300FF014C /* VideoEffectData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEffectData.m; sourceTree = "<group>"; };
+		D3FE3A802047F3C500FF014C /* VideoEffectModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEffectModel.h; sourceTree = "<group>"; };
+		D3FE3A812047F3C500FF014C /* VideoEffectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEffectModel.m; sourceTree = "<group>"; };
+		D3FE3A842047F53B00FF014C /* VideoEffectResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VideoEffectResources; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D325059F2016CA040058821B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3568FE620456D9000B56581 /* AiyaMediaEditor.framework in Frameworks */,
+				D3568FE520456D6D00B56581 /* IJKMediaFramework.framework in Frameworks */,
+				D35E118D2042C6E000522F17 /* libc++.tbd in Frameworks */,
+				D35E118B2042C6D300522F17 /* libiconv.tbd in Frameworks */,
+				D3EF96B8202878E600E5B9F7 /* libz.tbd in Frameworks */,
+				D313B956202050150097C067 /* AVFoundation.framework in Frameworks */,
+				FD1E78C1F120AE88A7199CF8 /* libPods-AiyaMediaEditorDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23A1E6D321353CD80006C7B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23A1E6DE21353CD80006C7B9 /* AiyaEffectSDK.framework */,
+				23A1E6E021353CD80006C7B9 /* libAySDKCore.a */,
+				23A1E6E221353CD80006C7B9 /* libAyTrack.a */,
+				23A1E6E421353CD80006C7B9 /* libAyEffect.a */,
+				23A1E6E621353CD80006C7B9 /* libAyBeauty.a */,
+				23A1E6E821353CD80006C7B9 /* libAyShortVideoEffect.a */,
+				23A1E6EA21353CD80006C7B9 /* libAyEffect-lite.a */,
+				23A1E6EC21353CD80006C7B9 /* AiyaEffectSDKLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53233BDE557E050D8B2C111A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71E97BE012B98C164CE54E19 /* Pods-AiyaMediaEditorDemo.debug.xcconfig */,
+				3E07515E74BADBB6F4A51E99 /* Pods-AiyaMediaEditorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D32505992016CA040058821B = {
+			isa = PBXGroup;
+			children = (
+				23A1E703213540550006C7B9 /* AiyaEffectSDK.bundle */,
+				23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */,
+				D3EF96A0202875B800E5B9F7 /* AiyaMediaEditor.xcodeproj */,
+				D3EF96AB2028775800E5B9F7 /* IJKMediaPlayer.xcodeproj */,
+				D32505A42016CA040058821B /* AiyaMediaEditorDemo */,
+				D32505A32016CA040058821B /* Products */,
+				D32505C32016CD0F0058821B /* Frameworks */,
+				53233BDE557E050D8B2C111A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D32505A32016CA040058821B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32505A22016CA040058821B /* AiyaMediaEditorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32505A42016CA040058821B /* AiyaMediaEditorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D32505CA2016D2DB0058821B /* Page */,
+				D32505E82016E28E0058821B /* UI */,
+				D35E117E20428D7100522F17 /* Store */,
+				D32505FF201720CA0058821B /* Utils */,
+				D32505C82016D2990058821B /* Resource Files */,
+				D32505C62016D25D0058821B /* AppDelegate */,
+				D32505B42016CA040058821B /* main.m */,
+			);
+			path = AiyaMediaEditorDemo;
+			sourceTree = "<group>";
+		};
+		D32505C32016CD0F0058821B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35E118C2042C6E000522F17 /* libc++.tbd */,
+				D35E118A2042C6D300522F17 /* libiconv.tbd */,
+				D3EF96B7202878E600E5B9F7 /* libz.tbd */,
+				D313B955202050150097C067 /* AVFoundation.framework */,
+				5C4F152842407157F453C46A /* libPods-AiyaMediaEditorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D32505C62016D25D0058821B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D32505A52016CA040058821B /* AppDelegate.h */,
+				D32505A62016CA040058821B /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D32505C82016D2990058821B /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32052C32043AE94006375ED /* AiyaEffectSDK.bundle */,
+				D35E117820424DEC00522F17 /* EffectResources */,
+				D35E117220424DD400522F17 /* FilterResources */,
+				D3FE3A842047F53B00FF014C /* VideoEffectResources */,
+				D3E93098202D997000540FE4 /* Alan Walker - Alone.m4a */,
+				D3E93097202D996E00540FE4 /* Alan Walker - The Spectre.m4a */,
+				D32505AE2016CA040058821B /* Assets.xcassets */,
+				D32505B32016CA040058821B /* Info.plist */,
+			);
+			name = "Resource Files";
+			sourceTree = "<group>";
+		};
+		D32505CA2016D2DB0058821B /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				D32505CC2016D3600058821B /* Input */,
+				D32505CE2016D3D40058821B /* Record */,
+				D32505CF2016D3ED0058821B /* Edit */,
+				D3E9307E202D3D8C00540FE4 /* Music */,
+				D33077C920259C1F00C231C2 /* Effect */,
+				D32505CD2016D3CB0058821B /* Output */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		D32505CC2016D3600058821B /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				D32505D22016D42D0058821B /* Model */,
+				D32505D12016D41D0058821B /* View */,
+				D32505D02016D4170058821B /* VC */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		D32505CD2016D3CB0058821B /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				D325062520174B990058821B /* View */,
+				D325062120174B000058821B /* VC */,
+				D3568FF02046A89500B56581 /* CompressMedia.h */,
+				D3568FF12046A89500B56581 /* CompressMedia.m */,
+				D3568FD92044EF8F00B56581 /* MP4ReEncode.h */,
+				D3568FE12044EF9300B56581 /* MP4ReEncode.m */,
+				D3568FDF2044EF8F00B56581 /* VideoEffectHandler.h */,
+				D3568FE02044EF9100B56581 /* VideoEffectHandler.m */,
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+		D32505CE2016D3D40058821B /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				D325063420183B280058821B /* Model */,
+				D32505FB20171D2F0058821B /* View */,
+				D32505D32016D4670058821B /* VC */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		D32505CF2016D3ED0058821B /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				D325061B20173EC00058821B /* View */,
+				D325061720173E4D0058821B /* VC */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		D32505D02016D4170058821B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D32505DC2016D5AD0058821B /* InputViewController.h */,
+				D32505DD2016D5AD0058821B /* InputViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		D32505D12016D41D0058821B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D32505E12016DFA90058821B /* InputView.h */,
+				D32505E22016DFA90058821B /* InputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D32505D22016D42D0058821B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D32505F5201715E20058821B /* InputConfigModel.h */,
+				D32505F6201715E20058821B /* InputConfigModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D32505D32016D4670058821B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D32505F820171CDD0058821B /* RecordViewController.h */,
+				D32505F920171CDD0058821B /* RecordViewController.m */,
+			);
+			name = VC;
+			path = AiyaMediaEditorDemo/Page/Record/VC;
+			sourceTree = SOURCE_ROOT;
+		};
+		D32505E82016E28E0058821B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D32505E92016E2B70058821B /* AYRadioButton.h */,
+				D32505EA2016E2B70058821B /* AYRadioButton.m */,
+				D31D7BD4201ABD9C000A816C /* UIButton+ImageWithLable.h */,
+				D31D7BD5201ABD9D000A816C /* UIButton+ImageWithLable.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D32505FB20171D2F0058821B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3250631201833560058821B /* AYRecordPlaneCollectionViewCell.h */,
+				D3250632201833560058821B /* AYRecordPlaneCollectionViewCell.m */,
+				D325062B201832450058821B /* AYRecordStylePlane.h */,
+				D325062C201832450058821B /* AYRecordStylePlane.m */,
+				D325062E2018325F0058821B /* AYRecordFaceEffectPlane.h */,
+				D325062F2018325F0058821B /* AYRecordFaceEffectPlane.m */,
+				D3250611201725A70058821B /* AYRecordSpeedRadioButton.h */,
+				D3250612201725A70058821B /* AYRecordSpeedRadioButton.m */,
+				D325061420172AA10058821B /* AYRecordProgressView.h */,
+				D325061520172AA10058821B /* AYRecordProgressView.m */,
+				D32505FC20171D3F0058821B /* RecordView.h */,
+				D32505FD20171D3F0058821B /* RecordView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D32505FF201720CA0058821B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D39303992022A886008FC051 /* AiyaPlayer */,
+				D32506002017219B0058821B /* AiyaCamera */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D32506002017219B0058821B /* AiyaCamera */ = {
+			isa = PBXGroup;
+			children = (
+				D3250602201721A70058821B /* Camera.h */,
+				D3250605201721A90058821B /* Camera.m */,
+				D3250609201721AC0058821B /* CameraDataProcess.h */,
+				D3250606201721A90058821B /* CameraDataProcess.m */,
+				D3250601201721A60058821B /* MediaWriter.h */,
+				D3250608201721AB0058821B /* MediaWriter.m */,
+				D3250603201721A70058821B /* OpenglHelper.h */,
+				D3250607201721AB0058821B /* OpenglHelper.m */,
+				D325060A201721B10058821B /* Preview.h */,
+				D3250604201721A80058821B /* Preview.m */,
+			);
+			path = AiyaCamera;
+			sourceTree = "<group>";
+		};
+		D325061720173E4D0058821B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D325061820173E6C0058821B /* EditViewController.h */,
+				D325061920173E6C0058821B /* EditViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		D325061B20173EC00058821B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D32F23D2202462F0003C84EE /* AYEditMixAudioView.h */,
+				D32F23D3202462F0003C84EE /* AYEditMixAudioView.m */,
+				D30485FD202416D3004EE1CB /* AYEditCutAudioView.h */,
+				D30485FE202416D3004EE1CB /* AYEditCutAudioView.m */,
+				D32F23D520246C9C003C84EE /* AYEditCutMusicScoreView.h */,
+				D32F23D620246C9C003C84EE /* AYEditCutMusicScoreView.m */,
+				D325061C20173ED60058821B /* EditView.h */,
+				D325061D20173ED60058821B /* EditView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D325062120174B000058821B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D325062220174B160058821B /* OutputViewController.h */,
+				D325062320174B160058821B /* OutputViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		D325062520174B990058821B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D325062620174BAC0058821B /* OutputView.h */,
+				D325062720174BAC0058821B /* OutputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D325063420183B280058821B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D325063520183B6B0058821B /* StyleModel.h */,
+				D325063620183B6B0058821B /* StyleModel.m */,
+				D326C7712018612D002CD65F /* FaceEffectModel.h */,
+				D326C7722018612D002CD65F /* FaceEffectModel.m */,
+				D31D7BCD2019CAE6000A816C /* MediaItemModel.h */,
+				D31D7BCE2019CAE6000A816C /* MediaItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D32C281A20280907007B74FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D32C281B2028093B007B74FF /* EffectTimeModel.h */,
+				D32C281C2028093B007B74FF /* EffectTimeModel.m */,
+				D3CD297720298B7100ACA8D8 /* EffectCellModel.h */,
+				D3CD297820298B7100ACA8D8 /* EffectCellModel.m */,
+				D3DD3840202ADCCB00888A6E /* EffectIndexModel.h */,
+				D3DD3841202ADCCB00888A6E /* EffectIndexModel.m */,
+				D3FE3A802047F3C500FF014C /* VideoEffectModel.h */,
+				D3FE3A812047F3C500FF014C /* VideoEffectModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D33077C920259C1F00C231C2 /* Effect */ = {
+			isa = PBXGroup;
+			children = (
+				D32C281A20280907007B74FF /* Model */,
+				D33077CA20259C3A00C231C2 /* View */,
+				D33077CB20259C4000C231C2 /* VC */,
+			);
+			path = Effect;
+			sourceTree = "<group>";
+		};
+		D33077CA20259C3A00C231C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3CD2974202988FB00ACA8D8 /* AYEffectSelectorView.h */,
+				D3CD2975202988FB00ACA8D8 /* AYEffectSelectorView.m */,
+				D32C281720280894007B74FF /* AYEffectProgressView.h */,
+				D32C281820280894007B74FF /* AYEffectProgressView.m */,
+				D33077CF2025A16B00C231C2 /* EffectView.h */,
+				D33077D02025A16B00C231C2 /* EffectView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D33077CB20259C4000C231C2 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D33077CC20259C7700C231C2 /* EffectViewController.h */,
+				D33077CD20259C7700C231C2 /* EffectViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		D35E117E20428D7100522F17 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				D35E118420428DDA00522F17 /* FaceEffectData.h */,
+				D35E118520428DDA00522F17 /* FaceEffectData.m */,
+				D35E11872042BAED00522F17 /* StyleData.h */,
+				D35E11882042BAED00522F17 /* StyleData.m */,
+				D3FE3A7D2047F33300FF014C /* VideoEffectData.h */,
+				D3FE3A7E2047F33300FF014C /* VideoEffectData.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		D39303992022A886008FC051 /* AiyaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D393039B2022AB53008FC051 /* Player.h */,
+				D393039A2022AB52008FC051 /* Player.m */,
+				D32C28222028581F007B74FF /* PlayerStateView.h */,
+				D32C282320285820007B74FF /* PlayerStateView.m */,
+				D393039E2022ACD8008FC051 /* PlayerPreview.h */,
+				D393039D2022ACD6008FC051 /* PlayerPreview.m */,
+			);
+			path = AiyaPlayer;
+			sourceTree = "<group>";
+		};
+		D3E9307E202D3D8C00540FE4 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9308C202D40CA00540FE4 /* Model */,
+				D3E93088202D3DC200540FE4 /* View */,
+				D3E93084202D3D9D00540FE4 /* VC */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		D3E93084202D3D9D00540FE4 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D3E93085202D3DBC00540FE4 /* MusicViewController.h */,
+				D3E93086202D3DBC00540FE4 /* MusicViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		D3E93088202D3DC200540FE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3E93090202D441F00540FE4 /* MusicCellView.h */,
+				D3E93091202D441F00540FE4 /* MusicCellView.m */,
+				D3E93089202D3DD500540FE4 /* MusicView.h */,
+				D3E9308A202D3DD500540FE4 /* MusicView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3E9308C202D40CA00540FE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9308D202D40E700540FE4 /* MusicModel.h */,
+				D3E9308E202D40E700540FE4 /* MusicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3EF96A1202875B800E5B9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF96A5202875B800E5B9F7 /* AiyaMediaEditor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3EF96AC2028775800E5B9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF96B02028775900E5B9F7 /* IJKMediaFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32505A12016CA040058821B /* AiyaMediaEditorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32505B82016CA040058821B /* Build configuration list for PBXNativeTarget "AiyaMediaEditorDemo" */;
+			buildPhases = (
+				67DFA5D3A6C0264FA26724BC /* [CP] Check Pods Manifest.lock */,
+				D325059E2016CA040058821B /* Sources */,
+				D325059F2016CA040058821B /* Frameworks */,
+				D32505A02016CA040058821B /* Resources */,
+				3ABC5849355875932457963D /* [CP] Embed Pods Frameworks */,
+				0ADABBDAC99A424E9B2B1FE8 /* [CP] Copy Pods Resources */,
+				D3568FEC20456DF900B56581 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23A1E6EF21353CF70006C7B9 /* PBXTargetDependency */,
+				D3EF96B62028777100E5B9F7 /* PBXTargetDependency */,
+			);
+			name = AiyaMediaEditorDemo;
+			productName = AiyaMediaEditorDemo;
+			productReference = D32505A22016CA040058821B /* AiyaMediaEditorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D325059A2016CA040058821B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "深圳市哎吖科技有限公司";
+				TargetAttributes = {
+					D32505A12016CA040058821B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D325059D2016CA040058821B /* Build configuration list for PBXProject "AiyaMediaEditorDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32505992016CA040058821B;
+			productRefGroup = D32505A32016CA040058821B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 23A1E6D321353CD80006C7B9 /* Products */;
+					ProjectRef = 23A1E6D221353CD80006C7B9 /* AiyaEffectSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = D3EF96A1202875B800E5B9F7 /* Products */;
+					ProjectRef = D3EF96A0202875B800E5B9F7 /* AiyaMediaEditor.xcodeproj */;
+				},
+				{
+					ProductGroup = D3EF96AC2028775800E5B9F7 /* Products */;
+					ProjectRef = D3EF96AB2028775800E5B9F7 /* IJKMediaPlayer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D32505A12016CA040058821B /* AiyaMediaEditorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		23A1E6DE21353CD80006C7B9 /* AiyaEffectSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AiyaEffectSDK.framework;
+			remoteRef = 23A1E6DD21353CD80006C7B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23A1E6E021353CD80006C7B9 /* libAySDKCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAySDKCore.a;
+			remoteRef = 23A1E6DF21353CD80006C7B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23A1E6E221353CD80006C7B9 /* libAyTrack.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAyTrack.a;
+			remoteRef = 23A1E6E121353CD80006C7B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23A1E6E421353CD80006C7B9 /* libAyEffect.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAyEffect.a;
+			remoteRef = 23A1E6E321353CD80006C7B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23A1E6E621353CD80006C7B9 /* libAyBeauty.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAyBeauty.a;
+			remoteRef = 23A1E6E521353CD80006C7B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23A1E6E821353CD80006C7B9 /* libAyShortVideoEffect.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAyShortVideoEffect.a;
+			remoteRef = 23A1E6E721353CD80006C7B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23A1E6EA21353CD80006C7B9 /* libAyEffect-lite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAyEffect-lite.a";
+			remoteRef = 23A1E6E921353CD80006C7B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23A1E6EC21353CD80006C7B9 /* AiyaEffectSDKLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AiyaEffectSDKLite.framework;
+			remoteRef = 23A1E6EB21353CD80006C7B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3EF96A5202875B800E5B9F7 /* AiyaMediaEditor.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AiyaMediaEditor.framework;
+			remoteRef = D3EF96A4202875B800E5B9F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3EF96B02028775900E5B9F7 /* IJKMediaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFramework.framework;
+			remoteRef = D3EF96AF2028775900E5B9F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32505A02016CA040058821B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A1E705213540D40006C7B9 /* AiyaEffectSDK.bundle in Resources */,
+				D32505AF2016CA040058821B /* Assets.xcassets in Resources */,
+				D3E9309A202D997000540FE4 /* Alan Walker - Alone.m4a in Resources */,
+				D3FE3A852047F53B00FF014C /* VideoEffectResources in Resources */,
+				D3E93099202D997000540FE4 /* Alan Walker - The Spectre.m4a in Resources */,
+				D35E117920424DEC00522F17 /* FilterResources in Resources */,
+				D35E117A20424DEC00522F17 /* EffectResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ADABBDAC99A424E9B2B1FE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiyaMediaEditorDemo/Pods-AiyaMediaEditorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ABC5849355875932457963D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiyaMediaEditorDemo/Pods-AiyaMediaEditorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67DFA5D3A6C0264FA26724BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AiyaMediaEditorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D325059E2016CA040058821B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C281920280894007B74FF /* AYEffectProgressView.m in Sources */,
+				D32F23D4202462F0003C84EE /* AYEditMixAudioView.m in Sources */,
+				D3568FE22044EF9400B56581 /* VideoEffectHandler.m in Sources */,
+				D3CD297920298B7100ACA8D8 /* EffectCellModel.m in Sources */,
+				D325061620172AA10058821B /* AYRecordProgressView.m in Sources */,
+				D32C281D2028093B007B74FF /* EffectTimeModel.m in Sources */,
+				D3568FF22046A89500B56581 /* CompressMedia.m in Sources */,
+				D326C7732018612D002CD65F /* FaceEffectModel.m in Sources */,
+				D325062D201832450058821B /* AYRecordStylePlane.m in Sources */,
+				D31D7BCF2019CAE6000A816C /* MediaItemModel.m in Sources */,
+				D32505EB2016E2B70058821B /* AYRadioButton.m in Sources */,
+				D325061E20173ED60058821B /* EditView.m in Sources */,
+				D3FE3A822047F3C500FF014C /* VideoEffectModel.m in Sources */,
+				D3CD2976202988FB00ACA8D8 /* AYEffectSelectorView.m in Sources */,
+				D3250633201833560058821B /* AYRecordPlaneCollectionViewCell.m in Sources */,
+				D32505FE20171D3F0058821B /* RecordView.m in Sources */,
+				D35E11892042BAED00522F17 /* StyleData.m in Sources */,
+				D325060F201721B10058821B /* MediaWriter.m in Sources */,
+				D325061A20173E6C0058821B /* EditViewController.m in Sources */,
+				D32C282420285820007B74FF /* PlayerStateView.m in Sources */,
+				D3E93087202D3DBC00540FE4 /* MusicViewController.m in Sources */,
+				D31D7BD6201ABD9D000A816C /* UIButton+ImageWithLable.m in Sources */,
+				D325063720183B6B0058821B /* StyleModel.m in Sources */,
+				D3E9308B202D3DD500540FE4 /* MusicView.m in Sources */,
+				D32505B52016CA040058821B /* main.m in Sources */,
+				D35E118620428DDA00522F17 /* FaceEffectData.m in Sources */,
+				D3568FE32044EF9400B56581 /* MP4ReEncode.m in Sources */,
+				D325060B201721B10058821B /* Preview.m in Sources */,
+				D32505E32016DFA90058821B /* InputView.m in Sources */,
+				D32505A72016CA040058821B /* AppDelegate.m in Sources */,
+				D32F23D720246C9C003C84EE /* AYEditCutMusicScoreView.m in Sources */,
+				D393039C2022AB54008FC051 /* Player.m in Sources */,
+				D325060D201721B10058821B /* CameraDataProcess.m in Sources */,
+				D32506302018325F0058821B /* AYRecordFaceEffectPlane.m in Sources */,
+				D3FE3A7F2047F33300FF014C /* VideoEffectData.m in Sources */,
+				D33077D12025A16B00C231C2 /* EffectView.m in Sources */,
+				D325062420174B160058821B /* OutputViewController.m in Sources */,
+				D325060C201721B10058821B /* Camera.m in Sources */,
+				D3E9308F202D40E700540FE4 /* MusicModel.m in Sources */,
+				D393039F2022ACD8008FC051 /* PlayerPreview.m in Sources */,
+				D32505F7201715E20058821B /* InputConfigModel.m in Sources */,
+				D3250613201725A70058821B /* AYRecordSpeedRadioButton.m in Sources */,
+				D325062820174BAC0058821B /* OutputView.m in Sources */,
+				D3E93092202D441F00540FE4 /* MusicCellView.m in Sources */,
+				D30485FF202416D3004EE1CB /* AYEditCutAudioView.m in Sources */,
+				D32505FA20171CDD0058821B /* RecordViewController.m in Sources */,
+				D33077CE20259C7700C231C2 /* EffectViewController.m in Sources */,
+				D325060E201721B10058821B /* OpenglHelper.m in Sources */,
+				D32505DE2016D5AD0058821B /* InputViewController.m in Sources */,
+				D3DD3842202ADCCB00888A6E /* EffectIndexModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23A1E6EF21353CF70006C7B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AiyaEffectSDK;
+			targetProxy = 23A1E6EE21353CF70006C7B9 /* PBXContainerItemProxy */;
+		};
+		D3EF96B62028777100E5B9F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IJKMediaFramework;
+			targetProxy = D3EF96B52028777100E5B9F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D32505B62016CA040058821B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D32505B72016CA040058821B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D32505B92016CA040058821B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E97BE012B98C164CE54E19 /* Pods-AiyaMediaEditorDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G29KBS7YUL;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AiyaMediaEditorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiyaapp.aiya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D32505BA2016CA040058821B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E07515E74BADBB6F4A51E99 /* Pods-AiyaMediaEditorDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G29KBS7YUL;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AiyaMediaEditorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiyaapp.aiya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D325059D2016CA040058821B /* Build configuration list for PBXProject "AiyaMediaEditorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32505B62016CA040058821B /* Debug */,
+				D32505B72016CA040058821B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32505B82016CA040058821B /* Build configuration list for PBXNativeTarget "AiyaMediaEditorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32505B92016CA040058821B /* Debug */,
+				D32505BA2016CA040058821B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D325059A2016CA040058821B /* Project object */;
+}

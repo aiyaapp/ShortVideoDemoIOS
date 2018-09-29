@@ -1,0 +1,14 @@
+
+platform :ios, '8.0'
+
+project 'AiyaMediaEditorDemo.xcodeproj'
+
+target 'AiyaMediaEditorDemo' do
+
+    pod 'Masonry', '~> 1.0.1'                   #约束
+    
+    pod 'pop', '~> 1.0.10'                      #动画
+    
+    pod 'MBProgressHUD', '~> 1.1.0'             #HUD
+
+end

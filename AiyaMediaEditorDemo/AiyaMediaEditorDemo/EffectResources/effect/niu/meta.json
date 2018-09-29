@@ -1,0 +1,10 @@
+{
+  "format" : "1",
+  "name":"牛",
+  "nodes" : [
+    {
+	  "type":"3dModel",
+      "obj" : "niu.obj",
+    },
+  ]
+}
